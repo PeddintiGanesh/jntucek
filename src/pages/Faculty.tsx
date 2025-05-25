@@ -14,7 +14,7 @@ interface FacultyMember {
   email: string;
   phone?: string;
   imageUrl?: string;
-  specialization: string[];
+  // specialization: string[];
 }
 
 const facultyData: FacultyMember[] = [
@@ -27,7 +27,7 @@ const facultyData: FacultyMember[] = [
     qualifications: 'Ph.D.',
     email: 'nrkrishna27@gmail.com',
     phone: '9652730019',
-    specialization: ['Computer Science', 'Research', 'Academic Leadership']
+    // specialization: ['Computer Science', 'Research', 'Academic Leadership']
   },
   
   // Professors
@@ -39,7 +39,7 @@ const facultyData: FacultyMember[] = [
     qualifications: 'B.Tech, M.Tech, Ph.D',
     email: 'osr_phd@yahoo.com',
     phone: '9441951718',
-    specialization: ['Computer Science', 'Research Methodology']
+    // specialization: ['Computer Science', 'Research Methodology']
   },
   {
     id: '3',
@@ -49,7 +49,7 @@ const facultyData: FacultyMember[] = [
     qualifications: 'Ph.D',
     email: 'vamsivihar@gmail.com',
     phone: '9177780000',
-    specialization: ['Computer Science', 'Software Engineering']
+    // specialization: ['Computer Science', 'Software Engineering']
   },
   {
     id: '4',
@@ -58,7 +58,7 @@ const facultyData: FacultyMember[] = [
     department: 'Computer Science & Engineering',
     qualifications: 'Ph.D (JNTUK)',
     email: 'lsumalatha@jntucek.ac.in',
-    specialization: ['Data Science', 'Machine Learning']
+    // specialization: ['Data Science', 'Machine Learning']
   },
   {
     id: '5',
@@ -68,7 +68,7 @@ const facultyData: FacultyMember[] = [
     qualifications: 'B.E., M.Tech., Ph.D.',
     email: 'krishnaprasad.mhm@gmail.com',
     phone: '9989337589',
-    specialization: ['Computer Networks', 'Distributed Systems']
+    // specialization: ['Computer Networks', 'Distributed Systems']
   },
   {
     id: '6',
@@ -78,7 +78,7 @@ const facultyData: FacultyMember[] = [
     qualifications: 'Ph.D',
     email: 'krishna.ankala@gmail.com',
     phone: '9640027540',
-    specialization: ['Algorithms', 'Data Structures']
+    // specialization: ['Algorithms', 'Data Structures']
   },
   {
     id: '7',
@@ -88,7 +88,7 @@ const facultyData: FacultyMember[] = [
     qualifications: 'B.E., M.Tech., Ph.D',
     email: 'asnchakravarthy@jntucek.ac.in',
     phone: '9618719229',
-    specialization: ['Software Engineering', 'System Design']
+    // specialization: ['Software Engineering', 'System Design']
   },
   {
     id: '8',
@@ -98,7 +98,7 @@ const facultyData: FacultyMember[] = [
     qualifications: 'Ph.D.',
     email: 'harithadasari9@yahoo.com',
     phone: '9440810901',
-    specialization: ['Database Systems', 'Information Systems']
+    // specialization: ['Database Systems', 'Information Systems']
   },
   {
     id: '9',
@@ -108,7 +108,16 @@ const facultyData: FacultyMember[] = [
     qualifications: 'Ph.D',
     email: 'kuncha1868@gmail.com',
     phone: '9502661429',
-    specialization: ['Computer Graphics', 'Image Processing']
+    // specialization: ['Computer Graphics', 'Image Processing']
+  },
+  {
+    id: '14',
+    name: 'Dr. S. Surekha',
+    designation: 'Professor',
+    department: 'Computer Science & Engineering',
+    qualifications: 'Ph.D.',
+    email: 'surekha@jntucek.ac.in',
+    // specialization: ['Artificial Intelligence', 'Machine Learning']
   },
 
   // Assistant Professors
@@ -119,7 +128,7 @@ const facultyData: FacultyMember[] = [
     department: 'Computer Science & Engineering',
     qualifications: 'Ph.D.',
     email: 'chandrasekhar.s@jntucek.ac.in',
-    specialization: ['Data Mining', 'Analytics']
+    // specialization: ['Data Mining', 'Analytics']
   },
   {
     id: '11',
@@ -129,7 +138,7 @@ const facultyData: FacultyMember[] = [
     qualifications: 'B.Tech(C.S.E) M.Tech(C.S.E) Ph.D (NIT-Trichy)',
     email: 'usha.jntuk@gmail.com',
     phone: '9493050795',
-    specialization: ['Computer Networks', 'Network Security']
+    // specialization: ['Computer Networks', 'Network Security']
   },
   {
     id: '12',
@@ -139,7 +148,7 @@ const facultyData: FacultyMember[] = [
     qualifications: 'M.Tech, Ph.D',
     email: 'karunagouthana@gmail.com',
     phone: '9440942777',
-    specialization: ['Software Testing', 'Quality Assurance']
+    // specialization: ['Software Testing', 'Quality Assurance']
   },
   {
     id: '13',
@@ -149,16 +158,7 @@ const facultyData: FacultyMember[] = [
     qualifications: 'M.Tech(CSE), Ph.D',
     email: 'suneethaeluri83@jntucek.ac.in',
     phone: '9491141160',
-    specialization: ['Web Technologies', 'Internet Programming']
-  },
-  {
-    id: '14',
-    name: 'Dr. S. Surekha',
-    designation: 'Assistant Professor',
-    department: 'Computer Science & Engineering',
-    qualifications: 'Ph.D.',
-    email: 'surekha@jntucek.ac.in',
-    specialization: ['Artificial Intelligence', 'Machine Learning']
+    // specialization: ['Web Technologies', 'Internet Programming']
   },
   {
     id: '15',
@@ -167,7 +167,7 @@ const facultyData: FacultyMember[] = [
     department: 'Computer Science & Engineering',
     qualifications: 'Ph.D.',
     email: 'srkt@jntucek.ac.in',
-    specialization: ['Computer Vision', 'Pattern Recognition']
+    // specialization: ['Computer Vision', 'Pattern Recognition']
   },
 
   // Assistant Professors (Contract)
@@ -179,7 +179,7 @@ const facultyData: FacultyMember[] = [
     qualifications: 'M.Tech. (CN), Pursuing Ph.D.',
     email: 'ushanag1686@gmail.com',
     phone: '8686804805',
-    specialization: ['Computer Networks', 'Network Programming']
+    // specialization: ['Computer Networks', 'Network Programming']
   },
   {
     id: '17',
@@ -189,7 +189,7 @@ const facultyData: FacultyMember[] = [
     qualifications: 'M.Tech',
     email: 'kravi1189@gmail.com',
     phone: '9912999005',
-    specialization: ['Software Development', 'Programming']
+    // specialization: ['Software Development', 'Programming']
   },
   {
     id: '18',
@@ -199,7 +199,7 @@ const facultyData: FacultyMember[] = [
     qualifications: 'B.E.-CSE, M.Tech-CSE, (Ph.D-CSE@NIT, Silchar)',
     email: 'kadambari.raghuram143@gmail.com',
     phone: '8125345585',
-    specialization: ['Data Structures', 'Algorithms']
+    // specialization: ['Data Structures', 'Algorithms']
   },
   {
     id: '19',
@@ -209,7 +209,7 @@ const facultyData: FacultyMember[] = [
     qualifications: 'M.Tech., (Ph.D.)',
     email: 'mvallikiran@gmail.com',
     phone: '9848818584',
-    specialization: ['Database Management', 'Information Systems']
+    // specialization: ['Database Management', 'Information Systems']
   },
   {
     id: '20',
@@ -219,7 +219,7 @@ const facultyData: FacultyMember[] = [
     qualifications: 'M.Tech',
     email: 'arunamellam@gmail.com',
     phone: '9182761681',
-    specialization: ['Web Development', 'Frontend Technologies']
+    // specialization: ['Web Development', 'Frontend Technologies']
   },
   {
     id: '21',
@@ -229,7 +229,7 @@ const facultyData: FacultyMember[] = [
     qualifications: 'M. Tech., (Ph.D.) MBA(HR), APSET',
     email: 'samathak15@gmail.com',
     phone: '9492952440',
-    specialization: ['Human Resources', 'Management Systems']
+    // specialization: ['Human Resources', 'Management Systems']
   },
   {
     id: '22',
@@ -239,7 +239,7 @@ const facultyData: FacultyMember[] = [
     qualifications: 'M.Tech',
     email: 'saraswathi.kalum@gmail.com',
     phone: '8985242807',
-    specialization: ['Programming Languages', 'Compiler Design']
+    // specialization: ['Programming Languages', 'Compiler Design']
   },
   {
     id: '23',
@@ -249,7 +249,7 @@ const facultyData: FacultyMember[] = [
     qualifications: 'M. Tech',
     email: 'dhanalakshmi.gvp@gmail.com',
     phone: '8019649891',
-    specialization: ['Mobile Computing', 'App Development']
+    // specialization: ['Mobile Computing', 'App Development']
   },
   {
     id: '24',
@@ -259,7 +259,7 @@ const facultyData: FacultyMember[] = [
     qualifications: 'M.Tech. (SE), Pursuing Ph.D.',
     email: 'ch.priyadarshini84@gmail.com',
     phone: '9493841861',
-    specialization: ['Software Engineering', 'System Analysis']
+    // specialization: ['Software Engineering', 'System Analysis']
   }
 ];
 
@@ -331,7 +331,7 @@ const Faculty = () => {
                 </div>
               )}
               
-              <div>
+              {/* <div>
                 <h4 className="font-semibold text-gray-800 mb-2 flex items-center text-sm">
                   <Building size={14} className="mr-2" />
                   Specialization
@@ -343,7 +343,7 @@ const Faculty = () => {
                     </span>
                   ))}
                 </div>
-              </div>
+              </div> */}
             </CardContent>
           </Card>
         ))}
