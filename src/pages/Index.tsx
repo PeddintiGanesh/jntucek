@@ -23,4 +23,9 @@ const Index = () => {
   );
 };
 
+
 export default Index;
+
+
+
+<><script> window.chtlConfig = chatbotId: "4239862128" </script><script async data-id="4239862128" id="chtl-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script></>
